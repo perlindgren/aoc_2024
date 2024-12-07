@@ -1,11 +1,11 @@
 fn main() {
-    let s = "
-    3   4
-    4   3
-    2   5
-    1   3
-    3   9
-    3   3";
+    // let s = "
+    // 3   4
+    // 4   3
+    // 2   5
+    // 1   3
+    // 3   9
+    // 3   3";
     let s = include_str!("../ex1_input.txt");
     let s_split = s.split_whitespace();
     let mut l1 = vec![];
